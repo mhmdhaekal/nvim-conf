@@ -44,7 +44,8 @@ return {
             templ = {},
             zls = {},
             sqls = {},
-            clangd = {},
+            pyrefly = {}
+
         }
 
         for server, config in pairs(servers) do
