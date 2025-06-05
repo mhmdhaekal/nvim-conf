@@ -5,8 +5,8 @@ vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
 vim.opt.showmode = false
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
 vim.opt.colorcolumn = '120'
 vim.opt.textwidth = 120
 
@@ -18,7 +18,7 @@ vim.schedule(function()
   vim.opt.clipboard = 'unnamedplus'
 end)
 
-vim.diagnostic.config({ virtual_lines = true })
+vim.diagnostic.config({ virtual_lines =true })
 vim.opt.breakindent = true
 vim.opt.undofile = true
 
@@ -143,7 +143,5 @@ require('lazy').setup({
   },
 })
 
-vim.opt.termguicolors = true
 vim.cmd.colorscheme "catppuccin"
-
 
