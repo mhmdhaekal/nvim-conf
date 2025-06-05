@@ -5,13 +5,13 @@ return {
     priority = 1000,
     config = function()
       require('catppuccin').setup {
-        flavour = 'macchiato',
+        flavour = 'mocha',
         integrations = {
           blink_cmp = true,
           snacks = {
             enabled = true,
           },
-          noice = true
+          noice = true,
         },
         transparent_background = false,
       }

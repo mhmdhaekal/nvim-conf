@@ -20,6 +20,7 @@ return {
     scroll = { enabled = false },
     statuscolumn = { enabled = true },
     words = { enabled = true },
+    lazygit = { enabled = false },
   },
   keys = {
     -- Top Pickers & Explorer
@@ -344,13 +345,6 @@ return {
       end,
       desc = 'Git Browse',
       mode = { 'n', 'v' },
-    },
-    {
-      '<leader>gg',
-      function()
-        Snacks.lazygit()
-      end,
-      desc = 'Lazygit',
     },
     {
       '<leader>un',
