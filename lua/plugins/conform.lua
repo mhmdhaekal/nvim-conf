@@ -22,7 +22,8 @@ return {
       vue = { 'prettierd' },
       rust = { 'rustfmt' },
       python = { 'ruff' },
-      sql = {'sqruff'}
+      sql = { 'sqruff' },
+      json = { 'biome' },
     },
   },
 }
